@@ -320,7 +320,7 @@ RC_FILE = core.rc
 OTHER_FILES += core.dox math/math.dox
 DEFINES += QCADCORE_LIBRARY
 
-LIBS += -lopennurbs -lzlib
+LIBS += -lopennurbs -lzlib -luuid
 
 win32 {
     LIBS += -lRpcrt4 -lAdvapi32

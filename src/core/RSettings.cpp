@@ -41,7 +41,7 @@
 #include "RMath.h"
 #include "RS.h"
 #include "RSettings.h"
-#include "RSettingsBridge.h"
+//#include "RSettingsBridge.h"
 #include "RUnit.h"
 #include "RVersion.h"
 
@@ -1934,7 +1934,7 @@ void RSettings::setValue(const QString& key, const QVariant& value, bool overwri
         }
     }
 
-    RSettingsBridge::notifyChange();
+   // RSettingsBridge::notifyChange();
 }
 
 /**
